@@ -35,6 +35,7 @@ public class Detergent extends Cleanser {
 
 	public static void main(String[] args) {
 		Detergent x = new Detergent();
+		//子类自动继承了基类的方法
 		x.dilute();
 		x.apply();
 		x.scrub();
